@@ -1,0 +1,132 @@
+/* customer.css */
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #127be5ec;
+    color: #070303;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    color: #0d0d0d !important;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #121111;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e8edf1;
+    color: #090909 !important;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #130202 !important;
+    background-color: #0bdf60 !important;
+}
+
+.my-info {
+    background-color: #0c5287;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-info h2, .my-info h4 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.my-info .btn {
+    margin: 10px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #5ce29f;
+    color: #0a0a0a;
+    border-bottom: none;
+}
+
+.modal-header .close {
+    color: #0c0b0b;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #010e18;
+    border: none;
+}
+
+.modal-footer .btn-success {
+    background-color: #131313;
+    border: none;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #0d3e6f;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #c0e87f;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #1d82e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #2d8ceb;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(19, 19, 19, 0.075);
+}
+
+.table-light,
+.table-light > th,
+.table-light > td {
+    background-color: #a3d839;
+}
+
+.table-info,
+.table-info > th,
+.table-info > td {
+    background-color: #25b8d2;
+}
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+    background-color: #10e437;
+    color: #03172e;
+}
+
+#transaction-history-body {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+#transaction-history-body li {
+    margin: 5px 0;
+}
